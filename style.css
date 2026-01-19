@@ -112,6 +112,62 @@ margin-top: 20px;
 .ri-arrow-right-s-line{
     font-size: 30px;
 }
-.ri-arrow-left-s-line{
+.ri-arrow-drop-left-line{
+    font-size: 45px;
+}
+.svg-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        gap: 60px;
+        margin-top: 50px;
+}
+.svg-link i{
+    font-size: 35px;
+}
+.card-main{
+    width: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 50px;
+    gap: 30px;
+    margin-top: 70px;
+}
+.card-1{
+     box-shadow: 2px 2px 6px rgb(190, 190, 190);
+}
+.link-1{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+}
+.upper img{
+    height:10.3rem;
+}
+.lower{
+    margin-top: 30px;
+}
+.lower h3{
     font-size: 30px;
+    width: 80%;
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.lower p{
+    font-weight: 100;
+     margin-left: 20px;
+      margin-top: 18px;
+}
+
+.lower button{
+     margin-left: 20px;
+     padding: 15px 25px;
+     margin-top: 20px;
+     background-color: #0267B7;
+     border: none;
+     color: white;
 }
